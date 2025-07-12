@@ -67,7 +67,7 @@ pub mod Graso {
             // Note: This is a simplified transfer - in a real implementation,
             // you would use IERC20Dispatcher for token transfers
             // For ETH transfers on Starknet, you would typically use a token contract
-            if is_successful {// TODO: Implement actual fund transfer to property.creator
+            if is_successful { // TODO: Implement actual fund transfer to property.creator
             // Example: token.transfer(property.creator, property.current_amount);
             }
 
