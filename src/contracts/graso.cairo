@@ -4,7 +4,7 @@ pub mod Graso {
         Map, MutableVecTrait, StoragePathEntry, StoragePointerReadAccess, StoragePointerWriteAccess,
         Vec, VecTrait,
     };
-    use core::starknet::{ContractAddress, get_caller_address, get_block_timestamp};
+    use core::starknet::{ContractAddress, get_block_timestamp, get_caller_address};
     use graso_contract::interfaces::irealestateido::IRealEstateIDO;
     use graso_contract::types::types::{Contributor, PropertyInfo};
 
